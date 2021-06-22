@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" type="text/css">
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" name="register">
+      <div class="header">
+        <h1>Car Regestration</h1>
+      </div>
+      <div class="container">
+        Car number plate<input type="text" name="car" placeholder="car number" />
+        Telephone Number<input
+          type="text"
+          name="telephone"
+          placeholder="telephone number"
+        />
+        Customer Name<input
+          type="text"
+          name="customer"
+          placeholder="customer details"
+        />
+        Color<input type="text" name="color" placeholder="color" />
+        <br>
+        <form action="/action_page.php">
+          <label for="birthdaytime">Car Arrival Time And Date:</label>
+          <input type="datetime-local" id="birthdaytime" name="birthdaytime" />
+          <input type="submit" />
+        </form>
+        <br />
+        <label for="cars">Payment Plan</label>
+        <select id="payment" name="package" placeholder="Payment options">
+          <option value="mtn">Mtn</option>
+          <option value="warid">Warid</option>
+          <option value="africell">Africell</option>
+          <option value="cash">Cash</option>
+        </select>
+        <br />
+        <label for="cars">Choose Package:</label>
+        <select id="package" name="package">
+          <option value="small">Small car</option>
+          <option value="medium">Medium car</option>
+          <option value="full-body">Full wash</option>
+          <option value="quick">Boda Boda</option>
+          <option value="quick">Egine</option>
+        </select>
+      </form>
+      <button type="button" value="Submit">Submit</button>
+      </div>
+      
+  </body>
+</html>

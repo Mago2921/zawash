@@ -1,0 +1,30 @@
+.container{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 1px solid black;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    height:50%;
+    border-left: 50%;
+  }
+    
+body{
+    background-color: aqua;
+}
+
+lable{
+    align-items: center;
+}
+
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
